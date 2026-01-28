@@ -1,3 +1,5 @@
+import socket
+socket.setdefaulttimeout(10)
 import asyncio
 import json
 import os
